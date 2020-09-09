@@ -35,9 +35,13 @@ Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình r
 - **Auto Rename Tag** Khi đổi tên tag, extension này sẽ đổi tên closing tag cho phù hợp luôn.
 - **Auto Close Tag:** Khi code HTML/JSX, mỗi khi tạo thêm tag mới, extension sẽ đóng tag để khỏi quên.
 - **Elm Emmet:** Chuyển đổi từ viết tắt các từ khoá viết tắt thành phần các thẻ đầy đủ.
+
+```
+p.paragraph ~~> <p className="paragraph></p>
+```
+
 - **htmltagwrap:** Bao bọc code đã chọn bằng các thẻ HTML
 - **Color Info:** Cung cấp thông tin nhanh về màu css
-  - VD: `p.paragraph ~~> <p className="paragraph></p>`
 - **ES7 React/Redux/GraphQL/React-Native snippets:** Snippet cho React, Redux
 - **ESLint:** Giúp bạn code đúng chuẩn, đúng format, tìm những lỗi linh tinh khi code.
 - **Prettier:** Hỗ trợ bạn format code, sửa theo đúng chuẩn từ ESLint.
