@@ -11,7 +11,7 @@ Nội dung bài viết
 
 Visual Studio Code là 1 text editor khá mới nhưng free, chạy được trên nhiều hệ điều hành. Tuy chỉ là text editor nhưng ta vẫn có thể compile, run, debug code trên VS Code, không thua gì cái IDE xịn.
 
-Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code. Để bắt đầu, các bạn có thể vào đây để tải nha: code.visualstudio.com
+Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code.
 
 ### Các Extension cần thiết cho mọi dev
 
@@ -44,3 +44,7 @@ Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình r
 - **javacript console utils:** Giúp chèn và xóa câu lệnh console.log
 - **Live Server:** Dựng 1 server chạy HTML/CSS/JS, tự động refresh trình duyệt mỗi khi bạn sửa code. Mấy bạn mới học front-end thì nên cài cái này, tiết kiệm thời gian F5 lắm luôn.
 - **vscode-styled-components:** Highlight và auto-complete cho styled-component như khi code trên file css vậy
+
+### Tổng kết
+
+Xong rồi đó, trên là cấu hình mà mình dùng cho VSCode của mình. Hy vọng giúp dự án của anh em clean và mượt hơn. Các bạn có thể thay đổi lại một số chỗ cho phù hợp với phong cách của riêng mình chứ không nhất thiết phải y hệt mình 😆
