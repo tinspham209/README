@@ -1,6 +1,6 @@
 Cài đặt môi trường để code là điều mà nhiều anh em mới code hay bỏ qua vì nó khá là rườm rà. Nhưng tin mình đi, cài xong rồi thì anh em sẽ code rất là sướng. Sở dĩ mình chọn Visual Studio Code làm editor vì nó miễn phí 😳 , đầy đủ chức năng và được nhiều anh em từ newbie đến pro tin dùng.
 
-Nội dung bài viết
+### Nội dung bài viết
 
 - Visual Studio Code là cái gì cơ?
 - Các Extension cần thiết cho mọi dev
