@@ -1,88 +1,46 @@
-**Tình huống 1: A hỏi B nhưng chưa tìm hiểu?**
+Cài đặt môi trường để code là điều mà nhiều anh em mới code hay bỏ qua vì nó khá là rườm rà. Nhưng tin mình đi, cài xong rồi thì anh em sẽ code rất là sướng. Sở dĩ mình chọn Visual Studio Code làm editor vì nó miễn phí 😳 , đầy đủ chức năng và được nhiều anh em từ newbie đến pro tin dùng.
 
-- A: Anh ơi, em mới bị cái bug này. Xử sao anh?
-- B: Em search google thử chưa?
-- A: Dạ chưa anh ơi!
-- B:rầm!!! 😅
+Nội dung bài viết
 
-**Tình huống 2: A tìm hiểu rất kĩ trước khi hỏi**
+- Visual Studio Code là cái gì cơ?
+- Các Extension cần thiết cho mọi dev
+- Các Extension cần thiết cho React developer
+- Tổng kết
 
-- A: Anh ơi, em gặp vấn đề này.
-- A: Em tìm hiểu trên Google thì thấy A, B, C, D.
-- A: Em đã thử và thấy C chạy được, ngon lành.
-- A: Mà em không chắc là nó đúng, anh có thể góp ý giúp em được không?
-- B: Tất nhiên là được em! 😊
+### Visual Studio Code là cái gì cơ?
 
---> Chốt lại nên tìm hiểu trước khi đi hỏi người khác.
+Visual Studio Code là 1 text editor khá mới nhưng free, chạy được trên nhiều hệ điều hành. Tuy chỉ là text editor nhưng ta vẫn có thể compile, run, debug code trên VS Code, không thua gì cái IDE xịn.
 
-### Các bước cần thực hiện khi muốn hỏi
+Vừa nhẹ, vừa free, lại mạnh mẽ, nên dân web developer như mình rất khoái dùng VS Code. Để bắt đầu, các bạn có thể vào đây để tải nha: code.visualstudio.com
 
-1. Gặp vấn đề: không code được hoặc code bị lỗi.
-2. Hỏi chị Google
+### Các Extension cần thiết cho mọi dev
 
-   - Dùng tiếng Anh
-   - Dùng keywords:
-   - Vd: javascript + error can't make an assignment to a constant.
-   - Vd: javascript + object to array.
+- **GitLens:** Quản lý code tốt hơn với git, hiện thông tin người thay đổi file, commit,…
+- **Bookmarks:** Giúp bạn “bookmark” lại những dòng code hay đụng tới, cần đọc nhiều, sửa nhiều. Không còn phải search code mỗi lần cần tìm nữa.
+- **Code Spell Checker:** Rất rất nên cài. Kiểm tra lỗi chính tả khi code
+- **Setting Sync:** Giúp bạn đồng bộ setting (cài đặt, extension) giữa nhiều máy với nhau. Nhờ cài cái này, mình chỉ cần setup VS Code 1 lần. Những lần sau, khi đổi máy, mình chỉ cần chạy 1 phát là toàn bộ setting cũ đã được đồng bộ qua máy mới rồi!
+- **Bracket Pair Colorizer:** Giúp phân biệt các dấu {()} khi nó trở nên quá nhiều
+- **indent-rainbow:** Hiển thị những dấu chấm ở các đoạn thụt lề hơn, code dễ đọc hơn
+- **One Dark Pro:** Theme cho VSCode, đẹp hơn theme mặc định nhiều. Tạo cảm hứng code
+- **vscode-icons:** Thêm bộ theme icon cho các file, folder giúp bạn nhận biết file nhanh chóng
+- **Visual Studio IntelliCode**: AI hỗ trợ hiển thị gợi ý các hàm được mình dùng nhiều, cũng như các developer khác dùng nhiều
+- **change-case:** Hỗ trợ đổi tên biến nhanh theo các định dạng UPPER, lower, CONSTANT, lowerFirst, Upperfirst,...
+- **Polacode:** Hỗ trợ chụp code đẹp hơn. Mang đi hỏi người khác dễ dàng đọc hơn
 
-3. Đọc và lọc tài liệu. Thử nghiệm các giải pháp.
-4. Nếu thử hoài (hơn 1 tiếng) thì đi hỏi.
-5. Nếu code chạy được nhưng không chắc chắn với giải pháp, đi hỏi.
-6. Cách hỏi:
+### Các Extension cần thiết cho React developer
 
-   - Em đang làm gì?
-   - Thì gặp vấn đề gì?
-   - Các bước để reproduce lại vấn đề (optional)
-   - Em đã giải quyết như thế nào? Hoặc em đã tìm hiểu được những gì?
-   - Và em muốn hỏi gì? Giải pháp được chưa hoặc xin giải pháp.
-
-### Cách hỏi web tĩnh (chỉ có HTML/CSS/JS)
-
-- Deploy code của bạn lên Surge hoặc Github Pages.
-- Chụp hình phần muốn hỏi.
-- Mô tả như phần cách hỏi được đề cập ở trên.
-
-```
-Chào mọi người, em đang làm giao diện cho cái web này.
-Tới khúc responsive thì bị lỗi này (chụp cái hình).
-Em muốn ABCDEFGHI.
-Và em đã thử A, B, C, D nhưng vẫn không được ạ.
-Anh/Chị cho em xin ý kiến với ạ.
-Link website của em: https://site-cua-ban.surge.sh
-```
-
-### Cách hỏi cho ReactJS / Angular hoặc một framework nào khác
-
-- Tạo một code sandbox để reproduce lại vấn đề của bạn.
-- Chụp hình khúc cần hỏi.
-- Cung cấp đủ thông tin như ở bước 6, và thêm các thông tin khác:
-  - Routing nào?
-  - Component nào?
-  - Bị khi nào?
-  - Làm sao reproduce được cái vấn đề đó.
-
-```
-Chào mọi người, em đang làm website bằng ReactJS.
-Tới lúc làm routing thì bị lỗi này (chụp cái hình).
-Em muốn ABCDEFGHI.
-Và em đã thử A, B, C, D nhưng vẫn không được ạ.
-Các bước reproduce:
-
-1. Vào trang Home
-2. Click menu About
-
-- Mong muốn: Đi tới trang About.
-- Thực tế: Vẫn cứ ở lại trang Home.
-  Anh/Chị cho e xin hỏi tại sao ạ.
-  Link code sandbox: https://codesandbox.io/s/link-code-cua-ban
-```
-
-### 📝 Nhớ nè
-
-- Khuyến khích các bạn hỏi thật nhiều, nhưng phải đúng cách.
-- Hãy đi hỏi người khác với một giải pháp trên tay hoặc ít nhất là càng nhiều thông tin càng tốt.
-- Học cách search google hiệu quả.
-- Học cách mô tả vấn đề rõ ràng.
-- Nhớ deploy lên Surge cho web tĩnh hoặc codesandbox cho các công nghệ khác.
-
-### Happy Coding! 💻 ❤
+- **Path Intellisense:** Gợi ý tên npm package, tên file trong thư mục khi mình cần import, giúp giảm lỗi khi import
+- **Auto Import:** Hỗ trợ mình Import thư viện JavaScript, component từ các file khác
+- **Import Cost:** Bạn sẽ biết những thư viện nào quá nặng, nên thay thế hoặc loại bỏ, hoặc import 1 phần nhỏ thôi
+- **Auto Rename Tag** Khi đổi tên tag, extension này sẽ đổi tên closing tag cho phù hợp luôn.
+- **Auto Close Tag:** Khi code HTML/JSX, mỗi khi tạo thêm tag mới, extension sẽ đóng tag để khỏi quên.
+- **Elm Emmet:** Chuyển đổi từ viết tắt các từ khoá viết tắt thành phần các thẻ đầy đủ.
+- **htmltagwrap:** Bao bọc code đã chọn bằng các thẻ HTML
+- **Color Info:** Cung cấp thông tin nhanh về màu css
+  - VD: `p.paragraph ~~> <p className="paragraph></p>`
+- **ES7 React/Redux/GraphQL/React-Native snippets:** Snippet cho React, Redux
+- **ESLint:** Giúp bạn code đúng chuẩn, đúng format, tìm những lỗi linh tinh khi code.
+- **Prettier:** Hỗ trợ bạn format code, sửa theo đúng chuẩn từ ESLint.
+- **javacript console utils:** Giúp chèn và xóa câu lệnh console.log
+- **Live Server:** Dựng 1 server chạy HTML/CSS/JS, tự động refresh trình duyệt mỗi khi bạn sửa code. Mấy bạn mới học front-end thì nên cài cái này, tiết kiệm thời gian F5 lắm luôn.
+- **vscode-styled-components:** Highlight và auto-complete cho styled-component như khi code trên file css vậy
