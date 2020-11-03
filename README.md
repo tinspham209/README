@@ -4,27 +4,20 @@
   - styles
 - About
   - styles
-- About
-  - styles
 - Toolbar
   - List
   - ListItem
   - styles
-- Content
-  - Diagram
+- Mashup Content
+  - Maps
+  - Charts
+  - Tables
+  - Diagrams
   - Nodes
   - styles
 - User guide
   - Video tutorial
   - Text tutorial
-  - styles
-- Maps
-  - Highlight province
-  - styles
-- Charts
-  - Pie chart
-  - Column chart
-  - Line chart
   - styles
 - Output form
   - Node information
@@ -43,8 +36,13 @@
 - Form Input
 - Custom Render Node
 - Text
+- Anchor Text
 - Button
 - Group Button
+- Pie chart
+- Line chart
+- Column chart
+- Maps
 
 ## Redux
 
@@ -54,6 +52,13 @@
 - Modal
 - Routes
 - rootReducer
+
+### Theme
+
+- Global Styles
+- Colors
+- Fonts
+- Icons
 
 ## Navigation
 
@@ -87,6 +92,7 @@
 - React-dnd
 - React-dnd-html5-backend
 - React-router-dom
+- Redux
 - React-redux
 - Redux toolkit
 - Immutability-helper
