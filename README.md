@@ -1,6 +1,10 @@
 ## Scene:
 
-- InfoSection
+- Homepage
+  - styles
+- About
+  - styles
+- About
   - styles
 - Toolbar
   - List
@@ -29,6 +33,7 @@
 
 ## Component:
 
+- InfoSection
 - Navbar
 - Spinner
 - NotFound
