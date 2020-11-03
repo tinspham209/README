@@ -14,7 +14,7 @@
   - Diagram
   - Nodes
   - styles
-- How to use
+- User guide
   - Video tutorial
   - Text tutorial
   - styles
@@ -74,27 +74,28 @@
 - Mutation
 - Query
 
-## Images & Util
+## Images & Utils
 
 ## Third-party Library:
 
-- Dependencies:
+### Dependencies:
 
-  - React
-  - Styled-components
-  - Material-ui/core
-  - React-icons
-  - React-dnd
-  - React-dnd-html5-backend
-  - React-router-dom
-  - React-redux
-  - Redux toolkit
-  - Immutability-helper
-  - Beautiful-react-diagrams
-  - Firebase
+- React
+- Styled-components
+- Material-ui/core
+- React-icons
+- React-dnd
+- React-dnd-html5-backend
+- React-router-dom
+- React-redux
+- Redux toolkit
+- Immutability-helper
+- Beautiful-react-diagrams
+- Firebase
 
-- Dev Dependencies:
-  - Eslint
-  - Prettier
-  - React Devtools
-  - Redux Devtools
+### Dev Dependencies:
+
+- Eslint
+- Prettier
+- React Devtools
+- Redux Devtools
