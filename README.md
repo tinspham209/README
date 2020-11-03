@@ -16,8 +16,8 @@
   - Nodes
   - styles
 - User guide
-  - Video tutorial
-  - Text tutorial
+  - Video
+  - Text
   - styles
 - Output form
   - Node information
