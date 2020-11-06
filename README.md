@@ -1,107 +1,51 @@
-## Scene:
-
-- Homepage
-  - styles
-- About
-  - styles
-- Toolbar
-  - List
-  - ListItem
-  - styles
-- Mashup Content
-  - Maps
-  - Charts
-  - Tables
-  - Diagrams
-  - Nodes
-  - styles
-- User guide
-  - Video
-  - Text
-  - styles
-- Output form
-  - Node information
-  - Output log
-  - styles
-
-## Component:
+### Component
 
 - InfoSection
 - Navbar
 - Spinner
 - NotFound
 - Footer
-- Content
+- Mashup Content
 - Modal
 - Form Input
-- Custom Render Node
+- Custom Node
 - Text
-- Anchor Text
 - Button
 - Group Button
-- Pie chart
-- Line chart
-- Column chart
+- Pie Chart
+- Column Chart
 - Maps
 
-## Redux
+### GraphQL Query & Mutation
+
+- sua thanh` RESTful API & Props
+
+### Scene
+
+- Homepage
+- Contact page
+- About page
+- Toolbar
+- Mashup Content
+- Output form
+- User Guide
+
+### Reducer
 
 - Dashboard
 - Toolbar
 - Content
 - Modal
 - Routes
-- rootReducer
 
-### Theme
+## Cloud services
 
-- Global Styles
-- Colors
-- Fonts
-- Icons
+### GraphDB Server Endpoint
 
-## Navigation
+- Climate Dataset
+- Population Dataset
+- Industry Dataset
+- Atmosphere Dataset
+- Forest Dataset
 
-- Navbar
-- routes
-- styles
-
-## Container & Higher Order Components
-
-- Homepage
-- About page
-- Contact page
-- Dashboard page
-- styles
-
-## Query & Mutation
-
-- Mutation
-- Query
-
-## Images & Utils
-
-## Third-party Library:
-
-### Dependencies:
-
-- React
-- Styled-components
-- Material-ui/core
-- React-icons
-- React-dnd
-- React-dnd-html5-backend
-- React-router-dom
-- Redux
-- React-redux
-- Redux toolkit
-- Immutability-helper
-- Beautiful-react-diagrams
-- Firebase
-
-### Dev Dependencies:
-
-- Eslint
-- Prettier
-- React Devtools
-- Redux Devtools
+### Xoa cai amazon S3 Storage Services
