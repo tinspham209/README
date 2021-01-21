@@ -213,6 +213,8 @@ GET/POST
 
 `sudo service ssh start`
 
+### vòng lặp foreach. Giải thích cú pháp
+
 ```php
 foreach ($array as $key => $value){
     // Các dòng lệnh
