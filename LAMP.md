@@ -1,3 +1,43 @@
+# Trac Nghiem
+
+### Hãy cho biết câu lệnh SQL nào sau đây sẽ tạo ra lỗi khi thực thi?
+
+`IF NOT EXISTS CREATE DATABASE ‘CMU’`
+
+### Trong PHP, khi sử dụng hàm session_start() ta phải đắt?
+
+Trước thẻ html
+
+### Khả năng để cho phép Apache lưu trữ nhiều trang web trên 1 host duy nhất?
+
+Virtual Hosting
+
+### Hãy cho biết tập lệnh nào sau đây sẽ thực thi thành công?
+
+`select ‘username’ FROM member where id = 18 order by id;`
+
+### Hãy cho biết kq trả về của đoạn mã: <?php function chaodtu{} {echo}....?
+
+đại học DTan
+
+### Thông tin trạng thái phiên làm việc được lưu trữ trong ?
+
+`$\_session`
+
+### Hàm\_\_trả về các trường trong hàng hiện tại thành 1 mảng được lập chỉ mục
+
+`mysql_fetch_assoc()`
+
+### Giả sử $content chứa 1 chuỗi câu lệnh php nào in ra 26 ký tự đầu tiền của $content
+
+`print substr($content 26). ‘...’;`
+
+### Giả sử file ‘index.php’ nằm ở vị trí /vả/wwlamp.vn/index.php .nếu bạn đã sử dụng hàm basename($\_sever[php_self]) trong trang của mình, g trị?
+
+index.php
+
+# Tra loi ngan
+
 ### Xóa biến của phiên làm việc trên php :
 
 `unset($SESSION[“Biến Muốn Xóa”]);`
